@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ p {
+    background-color: #c9c9c9;
+ }
+ .test p {
+    background-color: blueviolet;
+ }
+
+ .app {
+    margin-right: 5px;
+ }
+ .appp{
+    background-image: linear-gradient( to bottom, #ff0000, #880000);
+    padding: 15px 30px;
+    
+ }
+ @media screen and (min-width:768px) {
+    .test p { background-color: aqua;}
+ }
